@@ -3,7 +3,11 @@ body{
 	padding: 0;
 	background: url(B1.jpeg) no-repeat;
 	background-size: cover;
-	
+	filter: blur();
+}
+
+.blur-background {
+    backdrop-filter: blur(10px); /* Adjust the value (10px) to control the amount of blur */
 }
 .box1{
 	float: left;
@@ -35,4 +39,10 @@ body{
 	margin-top: 5%;
 	color: white;
 	font-family: 'Century Gothic', sans-serif;
+}
+
+.socmed{
+	list-style-type: none;
+	font-weight: bolder;
+	color: white;
 }
